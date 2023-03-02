@@ -22,7 +22,7 @@ const animals = [...Array(300).keys()].map((id) => {
 });
 
 // Creating an endpoint
-app.get("/animal", (req, res) => {
+app.get("", (req, res) => {
   // Filtering query by the search result
   const searchQuery = req.query.searchQuery?.toLocaleLowerCase() || "";
 
