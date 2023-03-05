@@ -17,7 +17,7 @@ function useAnimalSearch(){
 
   const search = async (searchQuery) =>{
     const response = await fetch(
-      "http://localhost:8080?" + new URLSearchParams({searchQuery})
+      "https://animalfarm.onrender.com?" + new URLSearchParams({searchQuery})
       // URLSearchParams => is an inbuilt browser function which transform the query as e.g "searchQuery=dog" in the url
     )
     const data = await response.json();
