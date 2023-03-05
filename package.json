@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "netlify deploy--prod",
+    "build": "react-scripts build",
     "preview": "vite preview"
   },
   "dependencies": {
